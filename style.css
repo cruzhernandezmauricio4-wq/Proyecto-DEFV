@@ -552,9 +552,9 @@ textarea, input{
 }
 
 /*media queries*/
-/* TABLETS (768px - 1024px) */
+/*(768px - 1024px) */
 @media (max-width: 1024px) {
-    /* Grid para tablets */
+    
     .interesante-cont {
         grid-template-columns: repeat(4, 1fr);
     }
@@ -596,7 +596,7 @@ textarea, input{
     }
 }
 
-/* MÓVILES GRANDES (576px - 768px) */
+/* (576px - 768px) */
 @media (max-width: 768px) {
     /* Navbar en columna */
     .nav-main {
@@ -675,5 +675,74 @@ textarea, input{
     
     section {
         padding: 25px 15px;
+    }
+}
+/*  (hasta 576px) */
+@media (max-width: 576px) {
+    /* Ajustes generales */
+    body {
+        font-size: 14px;
+    }
+    
+    h2 {
+        font-size: 24px;
+        margin: 30px 0 20px;
+    }
+    
+    h1 {
+        font-size: 32px !important;
+    }
+    
+    /* Tarjetas ocupen todo el ancho */
+    .product-letter,
+    .producto-tarjeta {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+    
+    /* Equipo 1 columna */
+    .equipo-card {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+    
+    .equipo-foto {
+        width: 100px;
+        height: 100px;
+        top: -40px;
+    }
+    
+    /* Grid más compacto */
+    .interesante-cont {
+        gap: 10px;
+        padding: 10px;
+    }
+    
+    .product-tarjeta {
+        padding: 15px;
+    }
+    
+    .product-tarjeta .producto-title {
+        font-size: 16px;
+    }
+    
+    .product-tarjeta .producto-desc {
+        font-size: 12px;
+        -webkit-line-clamp: 2;
+    }
+    
+    /* Formulario más compacto */
+    .form-contacto {
+        padding: 20px;
+    }
+    
+    textarea, input {
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    .msj-btn {
+        padding: 12px;
+        font-size: 14px;
     }
 }
