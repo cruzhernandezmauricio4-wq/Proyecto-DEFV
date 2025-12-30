@@ -73,7 +73,7 @@ body{
 }
 .product-letter{
     height: auto;
-    background: white;
+    background: rgb(203, 206, 238);
     border-radius: 20px;
     overflow: hidden;
     padding-bottom: 20px;
@@ -92,16 +92,17 @@ body{
 /* IMAGEN DEL PRODUCTO */
 .product-img{
     width: 100%;
-    height: auto;
+    height: 400px;
     object-fit: contain; /* ajusta imagen sin deformarse */
-    background-color: #fafafa;
+    background-color: rgb(203, 206, 238);
     padding: 10px;
 }
 /* TÍTULO DEL PRODUCTO */
 .product-title{
     font-size: 25px;
     font-weight: 600;
-    margin-top: 10px;
+    
+    margin: 10px 15px;
     
 }
 /* DESCRIPCIÓN DEL PRODUCTO */
@@ -116,6 +117,7 @@ body{
     color: white;
     border: none;
     padding: 10px 15px;
+    margin: 10px 15px;
     border-radius: 8px;
     cursor: pointer;
     transition: .3s ease;
@@ -174,3 +176,6 @@ ul{
 li{
     margin-bottom: 6px;
 }
+
+/*cosas que se venden*/
+
