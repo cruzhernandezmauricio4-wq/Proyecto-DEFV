@@ -31,7 +31,7 @@ body{
     z-index: 1000;
     /*Agregar Felx Box*/
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -48,4 +48,15 @@ body{
     display: flex;
     gap: 15px;
     align-items: center;
+}
+/* Estilo de los enlaces del menú */
+.nav-list a{
+    text-decoration: none;
+    color: #5237ed;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.nav-list a:hover{
+    color: #b81bec; /* color cuando pasas el cursor */
 }
