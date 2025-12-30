@@ -4,12 +4,12 @@
 
 **Proyecto Final: Mi primera página web**
 
-Este es mi primer proyecto web creado desde cero utilizando **HTML, CSS y JavaScript**. Fue desarrollado como parte de mi aprendizaje en DEV.F y Bécalos, donde aprendí a construir, diseñar y publicar un sitio web básico, así como a usar **Git** y **GitHub** para control de versiones y despliegue. :contentReference[oaicite:1]{index=1}
+Este es mi primer proyecto web creado desde cero utilizando **HTML, CSS y JavaScript**. Fue desarrollado como parte de mi aprendizaje en DEV.F y Bécalos, donde aprendí a construir, diseñar y publicar un sitio web básico, así como a usar **Git** y **GitHub** para control de versiones y despliegue. 
 
-Mi objetivo fue combinar mi interés en **moda y tecnología**, creando una página visualmente atractiva y accesible para todas las personas interesadas en estos temas. :contentReference[oaicite:2]{index=2}
+Mi objetivo fue combinar mi interés en **moda y tecnología**, creando una página visualmente atractiva y accesible para todas las personas interesadas en estos temas. 
 
 ✨ Puedes ver el sitio web publicado aquí:  
-🔗 https://cruzhernandezmauricio4-wq.github.io/Proyecto-DEFV/ :contentReference[oaicite:3]{index=3}
+🔗 https://cruzhernandezmauricio4-wq.github.io/Proyecto-DEFV/ 
 
 ---
 
@@ -20,7 +20,7 @@ Este proyecto utiliza tecnologías web fundamentales:
 - 🟡 **HTML** – Estructura del contenido  
 - 🔵 **CSS** – Estilos y diseño visual  
 - ⚫ **JavaScript** – Comportamiento y dinámicas en la página  
-- 🗂️ **Git & GitHub** – Control de versiones y publicación en GitHub Pages :contentReference[oaicite:4]{index=4}
+- 🗂️ **Git & GitHub** – Control de versiones y publicación en GitHub Pages 
 
 ---
 
