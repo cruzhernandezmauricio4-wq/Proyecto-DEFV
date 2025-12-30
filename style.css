@@ -391,3 +391,42 @@ textarea, input{
 .msj-btn:hover {
     background: #ba5ff2;
 }
+
+/*contacto*/
+/*nav*/
+ .nav-cont{
+    background-color: rgb(176, 176, 239);
+    padding: 15px 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+    /*Agregar Felx Box*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav-titulo{
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(27, 4, 120);
+}
+
+/* Menú de navegación */
+.cont-lista{
+    list-style: none;
+    /*Agregar Felx Box*/
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+/* Estilo de los enlaces del menú */
+.cont-lista a{
+    text-decoration: none;
+    color: #5237ed;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.cont-lista a:hover{
+    color: #b81bec; /* color cuando pasas el cursor */
+}
