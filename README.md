@@ -1,18 +1,33 @@
+# Proyecto DEFV
 
-# Projecto Final: Mi primera pagina web 
+## 📌 Descripción
 
+**Proyecto Final: Mi primera página web**
 
+Este es mi primer proyecto web creado desde cero utilizando **HTML, CSS y JavaScript**. Fue desarrollado como parte de mi aprendizaje en DEV.F y Bécalos, donde aprendí a construir, diseñar y publicar un sitio web básico, así como a usar **Git** y **GitHub** para control de versiones y despliegue. :contentReference[oaicite:1]{index=1}
 
-## 🛠 Skills
-Javascript, HTML, CSS, Git y GitHub
+Mi objetivo fue combinar mi interés en **moda y tecnología**, creando una página visualmente atractiva y accesible para todas las personas interesadas en estos temas. :contentReference[oaicite:2]{index=2}
 
+✨ Puedes ver el sitio web publicado aquí:  
+🔗 https://cruzhernandezmauricio4-wq.github.io/Proyecto-DEFV/ :contentReference[oaicite:3]{index=3}
 
-## Tecnologias empleadas: HTML, Git y GitHub
+---
 
-Esta página la hice gracias al apoyo de DEV.F y Bécalos. Aprendí a crear mi primera página web desde cero, comenzando con los archivos básicos (HTML, CSS y JavaScript), y también a utilizar herramientas como Git para llevar el control de versiones y GitHub para compartir mi trabajo con la comunidad.
+## 🧠 Tecnologías usadas
 
-En esta página traté de unir mis dos pasiones: la moda y la programación. Es un proyecto sencillo que tiene como objetivo crear comunidad y servir como repositorio para todas las personas interesadas en temas de moda y creatividad.
+Este proyecto utiliza tecnologías web fundamentales:
 
-Te invito a visualizar mi trabajo en:
-👉 https://cruzhernandezmauricio4-wq.github.io/Proyecto-DEFV/
+- 🟡 **HTML** – Estructura del contenido  
+- 🔵 **CSS** – Estilos y diseño visual  
+- ⚫ **JavaScript** – Comportamiento y dinámicas en la página  
+- 🗂️ **Git & GitHub** – Control de versiones y publicación en GitHub Pages :contentReference[oaicite:4]{index=4}
 
+---
+
+## 🚀 Cómo usar / ejecutar localmente
+
+Si quieres ver o modificar el proyecto en tu máquina:
+
+1. **Clonar el repositorio**
+   ```bash
+   git clone https://github.com/cruzhernandezmauricio4-wq/Proyecto-DEFV.git
