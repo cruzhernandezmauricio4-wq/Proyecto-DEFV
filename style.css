@@ -72,7 +72,7 @@ body{
     justify-content: center;
 }
 .product-letter{
-    height: auto;
+    
     background: rgb(203, 206, 238);
     border-radius: 20px;
     overflow: hidden;
@@ -94,8 +94,10 @@ body{
     width: 100%;
     height: 400px;
     object-fit: contain; /* ajusta imagen sin deformarse */
+    display: block;
     background-color: rgb(203, 206, 238);
     padding: 10px;
+
 }
 /* TÍTULO DEL PRODUCTO */
 .product-title{
@@ -178,4 +180,98 @@ li{
 }
 
 /*cosas que se venden*/
+/* CONTENEDOR DE PRODUCTOS*/
+.catalogo-contenedor{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
 
+/* TARJETA DEL PRODUCTO */
+.producto-tarjeta{
+    background: #bbb6da;
+    border-radius: 15px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    transition: transform .2s ease, box-shadow .2s ease;
+    /*para que la batch absoluta se posicione dentro*/
+    position: relative;
+    text-align: center;
+    
+
+    flex: 1 1 240px; /*ocupa minoimo los 240 pixeles y puede crecer y encogerse */
+}
+
+/* Efecto al pasar el mouse */
+.producto-tarjeta:hover{
+    transform: translateY(-6px);
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.15);
+}
+
+/* IMAGEN DEL PRODUCTO */
+.producto-img{
+    width: 100%;
+    height: 550px;
+    object-fit: cover; /* ajusta imagen sin deformarse */
+    background-color: #bbb6da;
+    
+    padding: 10px;
+}
+
+/* TÍTULO DEL PRODUCTO */
+.producto-titulo{
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin: 10px 15px;
+    text-align: center;
+}
+
+/* DESCRIPCIÓN DEL PRODUCTO */
+.producto-desc{
+    font-size: 14px;
+    color: black;
+    margin: 10px 15px;
+}
+
+/* PRECIO */
+.producto-precio{
+    font-size: 18px;
+    font-weight: bold;
+    color: #f4190d;
+    margin-bottom: 10px;
+    margin: 10px 15px;
+    text-align: center;
+}
+
+/* BOTÓN DEL PRODUCTO */
+.producto-btn{
+    background: #ae92ee;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .3s ease;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 10px ;
+    
+
+}
+
+.producto-btn:hover{
+    background: #6d89e5;
+}
+.producto-badge{
+    position: absolute;
+    background-color: #9d8cf3;
+    top: 10px;
+    left: 10px;
+    color: #fafafa;
+    padding: 5px 12px;
+    border-radius: 20px;
+}
