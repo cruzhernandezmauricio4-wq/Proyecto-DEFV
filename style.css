@@ -19,10 +19,10 @@ body{
     max-width: 1200px;   /* puedes cambiarlo a 900, 1000, etc */
     margin: 0 auto;
  }
- 
+
  /*nav*/
  .nav-main{
-     background-color: rgb(176, 176, 239);
+    background-color: rgb(176, 176, 239);
     padding: 15px 25px;
     max-width: 1200px;
     margin: 0 auto;
