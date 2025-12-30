@@ -60,3 +60,97 @@ body{
 .nav-list a:hover{
     color: #b81bec; /* color cuando pasas el cursor */
 }
+/*aqui todo los textos de p se ponen justificados, descripciones*/
+p{
+    text-align: justify;
+}
+/*Aqui se pone todo los h2 homegeneo*/
+h2{
+    font-size: 35px;
+    text-align: center;
+    color: rgb(27, 4, 120);
+}
+h3{
+    text-align: justify;
+}
+
+/*tarjetas */
+.interesante-container{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.product-letter{
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    transition: transform .2s ease, box-shadow .2s ease;
+    /*para que la batch absoluta se posicione dentro*/
+    position: relative;
+
+    flex: 1 1 240px; /*ocupa minoimo los 240 pixeles y puede crecer y encogerse */
+}
+/* Efecto al pasar el mouse */
+.product-letter:hover{
+    transform: translateY(-6px);
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.15);
+}
+/* IMAGEN DEL PRODUCTO */
+.product-img{
+    width: 100%;
+    height: 600px;
+    object-fit: contain; /* ajusta imagen sin deformarse */
+    background-color: #fafafa;
+    padding: 10px;
+}
+/* TÍTULO DEL PRODUCTO */
+.product-title{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+/* DESCRIPCIÓN DEL PRODUCTO */
+.product-desc{
+    font-size: 14px;
+    color: #6d4c41;
+    margin: 10px 15px;
+}
+/* BOTÓN DEL PRODUCTO */
+.product-btn{
+    background:black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s ease;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.product-btn:hover{
+    background: #333334;
+}
+
+/* SECCIONES GENERALES */
+section{
+    padding: 25px;
+}
+
+h2{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+ul{
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+li{
+    margin-bottom: 6px;
+}
