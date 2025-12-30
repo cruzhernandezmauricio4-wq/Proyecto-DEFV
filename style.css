@@ -595,3 +595,85 @@ textarea, input{
         max-width: calc(50% - 20px);
     }
 }
+
+/* MÓVILES GRANDES (576px - 768px) */
+@media (max-width: 768px) {
+    /* Navbar en columna */
+    .nav-main {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+    }
+    
+    .nav-list {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    /* Grid para móviles - 1 columna */
+    .interesante-cont {
+        grid-template-columns: 1fr;
+        grid-auto-rows: 250px;
+    }
+    
+    .c1, .c2, .c3, .c4 {
+        grid-column: 1 / 2;
+        grid-row: auto;
+    }
+    
+    .c1 {
+        grid-row: 1 / 3; /* Se puede cambiar la altura */
+    }
+    
+    .c2 {
+        grid-row: 3 / 4;
+    }
+    
+    .c3 {
+        grid-row: 4 / 5;
+    }
+    
+    .c4 {
+        grid-row: 5 / 6;
+    }
+    
+    /* Reducir imágenes en tarjetas */
+    .product-img {
+        height: 200px;
+    }
+    
+    .producto-img {
+        height: 250px;
+    }
+    
+    /* Contacto en columna */
+    .contacto-section {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    /* Footer en columna */
+    .nav-cont {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+    
+    .cont-lista {
+        justify-content: center;
+    }
+    
+    /* Reducir texto */
+    h2 {
+        font-size: 28px;
+    }
+    
+    h1 {
+        font-size: 40px !important;
+    }
+    
+    section {
+        padding: 25px 15px;
+    }
+}
